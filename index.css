@@ -1,0 +1,346 @@
+body {
+	
+	font-family: 'Roboto', sans-serif;
+}
+.start{
+	background-color: #e63946;
+}
+
+@media (min-width: 1000px) {
+	#navbarNavDropdown {
+		display: flex;
+		justify-content: flex-end;
+		margin-right: 50px;
+	}
+}
+.navbar-brand{
+	font-family: 'Lobster', cursive;
+	margin-left: 40px;
+	
+}
+.m4{
+	font: size 25px;px;
+	color: white;
+}
+.m1{
+	color: white;
+}
+.container-fluid{
+	display:flex;
+	position: relative;
+}
+.navbar-nav{
+	position:relative;	
+	
+}
+.nav-link{
+	font-size:18px;
+	font-family: 'Oswald', sans-serif;
+	margin-right: 20px;
+}
+.navlink{
+	color: white;
+}
+.buynow{
+	border-radius: 25px;
+	font-family: 'Oswald', sans-serif;
+	padding: 5px;
+	width:100px;
+	height: 50px;
+	background-color:white;
+	color: #e63946;
+	border-color: white;
+}
+.buynow:hover{
+color: #f56c36;
+transform: scale(1.1);
+transition-duration: 500ms;
+}
+
+
+/* pizzabar css */
+
+.special{
+	font-family: 'Staatliches', cursive;
+	display:flex;
+	justify-content:center;
+	text-align:center;
+	margin-top:120px;
+	font-size:30px;
+	letter-spacing:8px;
+	color: #e5d549;
+}
+
+.bartext{
+	font-family: 'Staatliches', cursive;
+	display:flex;
+	position: relative;
+	left:90px;
+	justify-content:left;
+	text-align:center;
+	font-size:100px;
+	color: white;
+	letter-spacing:2px;
+
+}
+.barlorem{
+	display:flex;
+	justify-content:center;
+	text-align:left;
+	font-size:15px;
+	color: white;
+	margin-left: 90px;
+	letter-spacing: 1px;
+}
+.onlineorder{
+	display:flex;
+	justify-content:center;
+	border-radius:30px;
+	margin-left: 85px;
+	margin-top: 20px;
+	padding:20px;
+	font-size:14px;
+	background-color:#e9c46a;
+	border-color: #e9c46a;
+	
+}
+.onlineorder:hover{
+	background-color:#e5d549;
+	border-color: #e5d549;
+	transition-delay: 300ms;
+}
+.cart{
+	margin-right: 7px;
+}
+.price{
+	border: 1px solid #e5d549;
+	background-color: #e5d549;
+	border-radius:50%;
+	display: flex;
+	position: relative;
+	justify-content:center;
+	top: 90px;
+	left: 50px;
+	height: 180px;
+	width: 180px;
+	align-items: center;
+}
+.only{
+	font-family: 'Limelight', cursive;
+	font-size:25px;
+	color:black;
+	display:flex;
+	position: relative;
+	right: 20px;
+}
+.number{
+	font-family: 'Limelight', cursive;
+	font-size:3rem;
+	color:#e63946;
+	display:flex;
+	position: relative;
+	right: 10px;
+	bottom: 40px;
+}
+.largepizza{
+	display: flex;
+	position: relative;
+	bottom: 10px;
+}
+.SpecialsCombo{
+	font-family: 'ZCOOL KuaiLe', cursive;
+	display:flex;
+	justify-content:center;
+	font-size: 1.5rem;
+}
+.OurBestSellers{
+	display:flex;
+	justify-content:center;
+	font-size: 3rem;
+}
+.card{
+	height:450px;
+	border-radius: 10%;
+	background-color:#fffffc;
+	margin-top:40px;
+	
+	
+}
+.card:hover{
+	display:flex;
+	position: relative;
+	bottom: 30px;
+	background-color:#e63946;
+	transition: background-color 1s;
+	color:white;
+	cursor: position;
+	transition-timing-function: linear;
+}
+.card-img{
+	display:flex;
+	justify-content:center;
+}
+.card-box{
+	text-align:center;
+}
+.boxlorem{
+	font-weight: 100px;
+	margin-top: 20px;
+	opacity: 50%;
+}
+.priceall{
+	margin-top: 50px;
+}
+.cartimg{
+	border:1px solid #e5d549;
+	border-radius: 50%;
+	background-color:#e5d549;
+	padding:15px;
+	display:flex;
+	position: absolute;
+	left: 120px;
+	bottom:2px;
+	
+}
+.pizzacover{
+	height: 600px;
+}
+.pizzacoverpic{
+	margin-top: 50px;
+	display: flex;
+	position: relative;
+	opacity: 0.9;
+}
+.get{
+	display: flex;
+	position: relative;
+	bottom: 350px;
+	left: 100px;
+	font-size: 53px;
+	font-family: 'Staatliches', cursive;
+	color:white;
+}
+.free{
+	display: flex;
+	position: relative;
+	bottom: 370px;
+	left: 100px;
+	font-size: 90px;
+	font-family: 'Staatliches', cursive;
+	letter-spacing:5px;
+	color:#90be6d;
+	font-weight: 900;
+}
+.orderonline{
+	display: flex;
+	position: relative;
+	bottom: 370px;
+	left: 430px;
+	font-weight:bold;
+	padding:17px;
+	font-size:14px;
+	background-color:#90be6d;
+	border-color: #90be6d;
+	color: white;
+	border-radius:40px;
+}
+.orderonline:hover{
+	background-color: #718355;
+	
+}
+.welcome{
+	color: #e63946;
+	font-family: 'ZCOOL KuaiLe', cursive;
+	font-size:30px;
+}
+ .town{
+	font-size: 50px;
+	font-weight: 900;
+	letter-spacing:2px;
+	font-family: 'Staatliches', cursive;
+ }
+.direction{
+	padding:12px 25px;
+	border-radius: 30px;
+	background-color:#e63946;
+	border:#e63946;
+	color: white;
+	font-weight: bold;
+}
+.direction:hover{
+	background-color:#faa307;
+	border:#faa307;
+	transition: background-color 1s;
+}
+.groupall {
+	margin-top:50px;
+}
+.groupall img{
+ max-width: 60px;
+ max-height: 60px;
+}
+.Ingredient{
+	background-color: #001219;
+}
+.Ingredient h4{
+	text-align: center;
+	margin-top: 60px;
+	color: #e63946;
+	font-family: 'ZCOOL KuaiLe', cursive;
+	font-size:25px;
+	letter-spacing:4px;
+}
+.Ingredient h2{
+	font-family: 'Staatliches', cursive;
+	font-weight: 900;
+	text-align: center;
+	font-size:60px;
+	color:white;
+}
+.Ingredient h3{
+	font-family: 'Staatliches', cursive;
+	color: white;
+	letter-spacing:2px;
+}
+.Ingredient span{
+	color: #e63946;
+}
+.Ingredient p{
+	color: white;
+}
+.righttext{
+	text-align: right;
+}
+.menu h4{
+	text-align:center;
+	color: #e63946;
+	font-family: 'ZCOOL KuaiLe', cursive;
+	margin-top:30px;
+	letter-spacing:3px;
+}
+.menu h1{
+	text-align:center;
+	font-family: 'Staatliches', cursive;
+	font-weight: 900;
+	letter-spacing:5px;
+	font-size: 60px;
+	color: black;
+}
+.dish{
+	border:1px solid #e63946;
+	padding:5px 12px;
+	background-color:#e63946; 
+	color: white;
+	font-weight: 500;
+	border-radius: 10px;
+}
+.menu h3{
+	font-weight: 900;
+	letter-spacing:5px;
+}
+.dishprice{
+	color: #e63946;
+}
+.menu p{
+	opacity: 0.8;
+}
